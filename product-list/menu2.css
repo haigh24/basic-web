@@ -52,23 +52,17 @@
 }
 .flink:hover .linkcontent {
   /*visibility: visible;*/
-
-
-
-
 }
 .linkcontent {
   display: flex;
   flex-direction: column;
- 
 }
 .linkcontent a:hover {
   color: black;
-
 }
-.linkcontentfather{
-    display: flex;
-    width: 100%;
+.linkcontentfather {
+  display: flex;
+  width: 100%;
 }
 .content {
   display: flex;
