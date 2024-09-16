@@ -1,0 +1,76 @@
+.caffeekinghome {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 20px 10px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.caffeeking {
+  display: flex;
+  width: 30%;
+}
+.home {
+  display: flex;
+
+  width: 70%;
+}
+.home a {
+  text-decoration: none;
+  color: black;
+}
+.home a:hover {
+  color: #c0aa83;
+}
+.flinkfather {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.femote {
+  width: 16%;
+  display: flex;
+  text-align: center;
+}
+
+.flink {
+  font-weight: bold;
+
+  font-size: 20px;
+  width: 14%;
+  text-align: center;
+  position: relative;
+}
+
+.flink .linkcontent {
+  position: absolute;
+  z-index: 1;
+  /*visibility: hidden;*/
+  display: flex;
+
+  background-color: #c0aa83;
+}
+.flink:hover .linkcontent {
+  /*visibility: visible;*/
+
+
+
+
+}
+.linkcontent {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.linkcontent a:hover {
+  color: black;
+
+}
+.linkcontentfather{
+    display: flex;
+    width: 100%;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
