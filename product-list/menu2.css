@@ -68,3 +68,40 @@
   display: flex;
   flex-direction: row;
 }
+
+.imgallproduct {
+  display: flex;
+
+  background-image: url(coffee_parallax.jpg);
+}
+.position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.coffeekingproduct {
+  display: flex;
+  flex-direction: row;
+
+  width: 90%;
+  /* align-items: center; */
+  /* justify-content: center; */
+
+  line-height: 50px;
+}
+
+.coffeeking {
+  font-size: 20px;
+}
+.coffeeking a {
+  text-decoration: none;
+  color: #c0aa83;
+  transition: 400ms;
+}
+.coffeeking a:hover {
+  color: white;
+}
+
+/*link coffeeking hover from color to white*/
