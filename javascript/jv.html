@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myFunction(){
+            document.getElementById("function").innerHTML="Changed";
+        }
+        </script>
+        
+</head>
+<body >
+    <button type="button"
+onclick="document.getElementsByClassName('demo')[0].innerHTML = Date();
+document.getElementsByClassName('demo')[1].innerHTML = Date();
+">
+Click me to display Date and Time.</button>
+
+<p class="demo">ádfasdfasdf</p>
+<h1 class="demo">Haudhaksjdflajslkjlkjl;</h1>
+
+
+<button type="button"
+onclick="document.getElementById('temo').innerHTML = 'Tao phai ve nha truoc mat troi'">Drill !</button>
+<p id="temo">Competition</p>
+<h1> if any body talk you about the question</h1>
+
+
+<button type="button" style="cursor: pointer;"
+onclick="document.getElementById('img'). src='pic_bulboff.gif'">Turn off</button>
+
+<img id="img" src="pic_bulboff.gif" >
+<button type="button" style="cursor: pointer;"
+onclick="document.getElementById('img'). src='pic_bulbon.gif'">Turn on</button>
+
+
+
+<button type="button"
+onclick ="document.getElementById('fontsize').style.fontSize= '35px' ">Click !</button>
+
+<p id="fontsize">Bark</p>
+
+
+<p id="none">Gay </p>
+<button
+onclick="document.getElementById('none').style.display='none'"
+> Bien mat</button>
+
+
+<p id="display" style="display:none">Dissapear</p>
+<button
+onclick="document.getElementById('display').style.display='flex'"
+
+
+>guilty</button>
+
+
+
+
+
+<p id="function">Mot van ban</p>
+<button type="button" onclick="myFunction()">Submit</button>
+
+
+
+
+<p id="test">Mot van ban</p>
+
+<button type="button"
+onclick="document.getElementById('test').innerHTML='mot van ban da bi thay doi'"
+
+
+>Bam vao</button>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
