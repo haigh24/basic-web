@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <p id="demo"></p>
+
+<script>
+const cars = [];
+cars[0]="Saab";
+cars[1]="Volvo";
+document.getElementById("demo").innerHTML = cars;
+</script>
+    
+
+
+
+<p id="demo"></p>
+
+<script>
+const fruit = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruit[2];
+</script>
+
+
+
+
+
+
+
+
+
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demoo"></p>
+
+<script>
+const frui = ["Backy", "TrungKy", "NamKy"];
+document.getElementById("demoo").innerHTML = frui;
+
+function myFunction() {
+  frui.push("Monkey");
+  document.getElementById("demoo").innerHTML = frui;
+}
+</script>
+
+
+
+<script>
+    const fru = ["Banana", "Orange", "Apple", "Mango"];
+    let fLen = fru.length;
+    
+    let text = "<ul>";
+    for (let i = 0; i < fLen; i++) {
+      text += "<li>" + fru[i] + "</li>";
+    }
+    text += "</ul>";
+    
+    document.getElementById("demo").innerHTML = text;
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+<p id="moed"></p>
+
+<script>
+    let x = "";
+    const yourObj = {
+        name: "lili",
+        age:1000,
+        cars: [
+        {name:"Ford", models:["Fiesta", "Focus", "Mustang"]},
+    {name:"BMW", models:["320", "X3", "X5"]},
+    {name:"Fiat", models:["500", "Panda"]}
+        ]
+    }
+
+    for (let i in yourObj.cars) {
+       
+  x += "<h2>" + yourObj.cars[i].name + "</h2>";
+  for (let j in yourObj.cars[i].models) {
+    x += myObj.cars[i].models[j] + "<br>";
+  }
+}
+
+document.getElementById("omed").innerHTML = x;
+</script>
+  
+
+  
+
+
+
+
+</body>
+</html>

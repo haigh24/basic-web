@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+       
+        
+</head>
+<body >
+   <script src="jv.js">
+   </script>
+
+    
+
+
+
+
+
+<p id="tao"></p>
+
+<script>
+let tui = {
+    firstName: "Hai",
+    lastName: "Huy",
+    age: "20",
+    id: 048,
+};
+
+tui.loai = function() {
+    return this.lastName + " " + this.firstName ;
+}
+document.getElementById("tao").innerHTML = "Xin chao, ten toi la" + ' ' + tui.loai() + ' toi nam nay ' + tui.age;
+
+</script>
+
+
+
+
+
+<p id="demo"></p>
+
+<script>
+// Create an Object
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  id: 5566,
+};
+
+// Add a Method
+person.name = function() {
+  return (this.firstName + " " + this.lastName).toUpperCase();
+};
+
+// Display Object Data
+document.getElementById("demo").innerHTML =
+"My father is " + person.name(); 
+</script>
+
+
+
+<p id="chang"></p>
+<script>
+const cat = {
+    name: 'Cavin',
+    type: 'oldschool',
+
+}
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p id="people"></p>
+    <script>
+const people = {chinese:12, japanese:3, cambodia:0};
+
+let text = "";
+for (let [peoples, amount] of Object.entries(people)) {
+    text += peoples + ": " + amount + "<br";
+}
+document.getElementById("people").innerHTML = text;
+
+    </script>
+
+
+
+
+
+
+
+
+
+<p id="lists"></p>
+
+<script>
+    function list(first, last, age, ai ){
+  this.first = first;
+    this.last = last;
+    this.age= age;
+    this.daden = ai;
+}
+
+    const all = new list("hai", "normal", "200", "nichga");
+    document.getElementById('lists').innerHTML = "quoac my was" + all.daden;
+</script>
+
+
+
+<p id="mashine"></p>
+
+<script>
+    function machine(arm, mouth, leg, chest) {
+        this.firtOne = arm;
+        this.firtTwo = mouth;
+        this. firstThree = leg;
+        this. firstFour = chest;
+    }
+    const myMachine = new machine(15, 20, 21, "oil");
+    const myMachinegun = new machine("Cannon", "rifle", "pistol", "grenade launcher");
+
+myMachinegun.xo ="aksdjflalkajsdfkljasdklfj"
+document.getElementById('mashine').innerHTML = "woa " +  myMachine.firstFour + " " + myMachinegun.firstThree + myMachinegun.xo;
+</script>
+
+
+    
+
+
+
+<p id="gintama"></p>
+
+<script>
+    function gintama (one, two, three, four) {
+        this.one=one;
+        this.two=two;
+        this.three=three;
+        this.four=four;
+        this.allname = function() {
+            return this.one + " " + this.two + " " + this.three + "."
+        };
+    }
+    let sugar = new gintama("gintoki", "glass", "kaguya", 1 );
+    document.getElementById("gintama").innerHTML = sugar.one + "is terrois" + sugar.allname();
+</script>
+
+
+
+<p id="time"></p>
+<button
+onclick="document.getElementById('time').innerHTML= Date()">Time</button>
+
+
+<button onclick="this.innerHTML=Date()">Time in box
+
+</button>
+
+<p id="time2"></p>
+<p>wawawa</p>
+<button onclick="displayDate()">Thoi gian la</button>
+<script>
+    function displayDate () {
+        document.getElementById("time2").innerHTML = Date();
+    }
+</script>
+
+
+<script>
+ let cars = [
+    "bmw",
+    "volo",
+    "Honda"
+ ]
+document.getElementById('cars').innerHTML = cars,
+
+
+    </script>
+
+<p id="cars"></p>
+
+
+</body>
+</html>
