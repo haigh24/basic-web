@@ -745,13 +745,10 @@ function drawW(height) {
   for (let i = 0; i < height; i++) {
     let line = "";
 
-    // Thêm khoảng trắng cho phần bên trái
     line += " ".repeat(i);
 
-    // Thêm ký tự 'W'
     line += "*";
 
-    // Thêm khoảng trắng giữa hai phần 'W'
     if (i < height - 1) {
       line += " ".repeat((height - i - 1) * 2 - 1);
       line += "W";
@@ -819,7 +816,6 @@ function tongHaisobencanh(x) {
   return false;
 }
 
-
 function laptimTrungbinhcong(x, y) {
   for (let i = 0; i < x.length; i++) {
     if (y == x[i]) {
@@ -829,25 +825,15 @@ function laptimTrungbinhcong(x, y) {
   return false; // Không tìm thấy
 }
 
+function trungBinhIndexOf(x, y) {
+  let idx = x.indexOf(y);
 
- function trungBinhIndexOf (x, y) {
-
-let idx = x.indexOf(y); 
- 
   if (idx == -1) {
-    console.log( y + " không tồn tại trong " + x  );
+    console.log(y + " không tồn tại trong " + x);
   } else {
-    console.log  ( y + " tồn tại trong " + x );
+    console.log(y + " tồn tại trong " + x);
   }
 }
-
- 
-
-
-
-
-
-
 
 /*function soNhosaucung(x) {
   const nhoNhat = [2, 2, 6, 2, 3];
