@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script src="ifeles.js">
+                                    
+</script>
+
+
+
+
+
+
+
+<p id="dorime">
+
+</p>
+<script>
+    const time = new Date().getHours();
+let greeting;
+if ( time < 10) {
+    greeting = "Chao buoi sang";
+}
+else if (time < 20) {
+ greeting = "Chao buoi toi";
+}
+else {
+    greeting = "chao buoi khuya";
+}
+
+document.getElementById( 'dorime' ).innerHTML = greeting;
+
+
+
+
+
+</script>
+
+
+
+<p id="day"></p>
+
+<script>
+let day;
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Thu nam (friday why are you gay)";
+    break;
+  case  6:
+    day = "Saturday";
+}
+document.getElementById("day").innerHTML = "Today is " + day;
+</script>
+
+
+
+
+
+
+
+<p id="day2"></p>
+
+<script>
+let text;
+switch (new Date().getDay()) {
+  case 3:
+    text = "Today is Saturday";
+    break;
+  case 0:
+    text = "Today is Sunday";
+    break;
+  default://mac dinh//
+    text = "Looking forward to the Weekend";
+}
+document.getElementById("day2").innerHTML = text;
+</script>
+
+
+
+
+
+
+
+
+
+<!--switch(expression) {
+    case x:
+      // code block
+      break;
+    case y:
+      // code block
+      break;
+    default:
+      // code block
+}-->
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+<script>
+function printCars () {
+    const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+return text;
+}
+
+console.log(printCars());
+
+
+
+
+
+
+function printCar ( ){
+const car = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+let tex = "";
+for (let i = 0; i < car.length; i++) {
+  tex += car[i] + "<br>";
+}
+return tex;
+}
+console.log(printCar());
+
+
+
+
+
+function printTet () {
+let tet = "";
+
+for (let i = 0; i < 100; i++) {
+  tet += " the number " + i + "<br>";
+}
+return tet;
+}
+console.log(printTet());
+
+
+
+
+
+function printConst (){
+
+const xe = ["BMW", "Volvo", "Saab", "Ford"];
+let i, len, viet;
+for (i = 0, len = xe.length, viet = ""; i < len; i++) {
+  viet += xe[i] + "<br>";
+} return viet;
+}
+console.log (printConst());
+
+
+
+
+function bmw () {
+    const cars = ["BMW", "Volvo", "Saab", "250"];
+let i = 2;
+let len = cars.length;
+let tex = "";
+
+for (; i < len; i++) {
+  tex += cars[i] + "<br>";
+} return tex;
+}
+console.log (bmw());
+
+
+
+
+
+
+function display ( ) {
+
+if (new Date().getHours() < 18) {
+  greeting = "Helllo World"
+}
+
+ else {
+    greeting = "Hello VietNam"
+ }
+
+}
+console.log(display());
+
+
+
+function name  ( ) {
+
+const person = {fname:"John", lname:"Doe", age:25}; 
+
+let txt = "";
+for (let x in person) {
+  txt += person[x] + " ";
+}
+return  "txt";
+}
+console.log(name());
+
+
+
+function number () {
+let dex = "";
+let i = 0;
+while (i < 10) {
+  dex += "<br>The number is " + i;
+  i++;
+}
+return  "dex";
+}
+console.log(number());
+
+
+
+
+function countNumber () {
+    let number = ""
+    let i = 0;
+     
+    do {
+        text += "<br > the number is" + i;
+        i++;
+
+    }
+    while (i < 10)
+}
+
+
+
+
+
+
+
+
+
+
+function mortoBike ( ) {
+const cars = ["BMW", "Volvo", "Saab", "Ford"];
+
+let i = 0;
+let text = "";
+for (;cars[i];) {
+  text += cars[i] + "<br>";
+  i++;
+}
+}
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+}
+.headerlink {
+  display: flex;
+  width: 70%;
+  align-items: center;
+}
+.linkheader {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  justify-content: space-around;
+}
+.icon {
+  display: flex;
+  width: 30%;
+}
+
+.aboutus {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.contentinsideaboutus {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.onlyabus {
+  display: flex;
+  width: 100%;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 34px;
+  /*align-items: center;
+justify-content: center;*/
+}
+.coffeekingabus {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  width: 100%;
+  font-size: 16px;
+  /*align-items: center;
+    justify-content: center;*/
+}
+
+.coffeekingabus a {
+  color: rgb(192, 170, 131);
+  text-decoration: none;
+}
+.abuscoffeeking {
+  display: flex;
+  flex-direction: column;
+  line-height: 26px;
+}
+
+.abmarket {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+}
+.linkviewpr {
+display: flex;
+font-family: 'Times New Roman', Times, serif;
+
+
+
+}
+
+.linkviewpr a {
+text-decoration: none;
+color: white;
+background-color: rgb(192, 170, 131);
+padding: 20px;
+}
+
+.Sedsagittis {
+  display: flex;
+  font-size: 20px;
+}

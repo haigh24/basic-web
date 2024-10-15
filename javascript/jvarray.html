@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    
+    
+    <p id="flist"></p>
+    <script>
+        let traicay = ["chuoi", "cam", "tao", "xoai"];
+        document.getElementById("flist").innerHTML = traicay.join(" * "); </script>
+
+
+
+
+
+<p id="xe"></p>
+<script>
+let xe = [ "honda", "kiem khi", "dan dau"  ];
+document.getElementById("xe").innerHTML = xe[2]
+
+
+</script>
+
+<p id="rap">
+</p>
+<script>
+    let raper = ["long", "mck", "ngo" ];
+raper  [2] = "iem ci cay";
+
+
+
+
+    document.getElementById("rap").innerHTML = raper[2];
+
+</script>
+
+
+
+
+
+<p id="name"></p>
+
+<script>
+    let name = ["Hai", "Cao", "Huy", "Le"];
+    let flen = name.length;
+     let a = "<ul>";
+     for (let i = 0; i < flen; i++) {
+         a += "<li>" + name[i] + "</li>";
+     }
+     a += "</ul>";
+     document.getElementById("name") =  a ;
+</script>
+
+
+
+
+
+
+
+
+
+
+<p id="student"></p>
+<script>
+const student = ["Minh", "Hieu", "Quang" ];
+
+let text= "<ul>";
+student.forEach(myFunction);
+text += "</ul>";
+document.getElementById("student").innerHTML = text ;
+
+function myFunction(value) {
+    text += "<li>" + value + "</li>";
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+<script>
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    document.getElementById("demo1").innerHTML = fruits;
+    
+    fruits.splice(2, 0, "Lemon", "Kiwi");
+    document.getElementById("demo2").innerHTML = fruits;
+    </script>
+    
+
+
+
+
+    <p id="temo"></p>
+
+<script>
+const fruit = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus = fruit.slice(1);
+document.getElementById("demo").innerHTML = fruit + "<br><br>" + citrus;
+</script>
+
+
+
+
+<p id="mode"></p>
+
+<script>
+const gru = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const yumi = gru.slice(1);
+document.getElementById("mode").innerHTML = gru + "<br><br>" + yumi;
+</script>
+
+
+
+
+
+
+
+
+<p id="medo"></p>
+
+<script>
+const numbers = [4, 9, 16, 25, 29];
+let first = numbers.find(myFunction);
+
+document.getElementById("medo").innerHTML = "First number over 18 is " + first;
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+</script>
+
+
+
+<p><strong>Note:</strong> The includes method is not supported in Edge 13 (and earlier versions).</p>
+
+<script>
+const frui = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = frui.includes("Mango");
+</script>
+
+
+
+
+
+<p id="demo"></p>
+
+<script>
+const temp = [27, 28, 30, 40, 42, 35, 30];
+let pos = temp.findLastIndex(x => x > 40);
+
+document.getElementById("demo").innerHTML = "The last temperature over 40 was in position " + pos;
+</script>
+
+
+
+
+</body>
+</html>

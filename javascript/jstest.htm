@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="jstest.js"></script>
+    <script>
+      console.log("pofCircle 5 is:" + pCircle(5));
+      console.log("pofCircle 7 is:" + pCircle(7));
+      console.log("pofCircle 10 is:" + pCircle(10));
+    </script>
+
+    <script>
+      console.log("sofCircle 12 is: " + sCircle(12));
+      console.log("sofCircle 20 is: " + sCircle(20));
+      console.log("sofCircle 43 is: " + sCircle(43));
+      console.log(
+        "sRetangle with height: 12 and widht:10: " + sRetangle(12, 10)
+      );
+      console.log(
+        "sRetangle with height: 40 and widht:10: " + sRetangle(40, 10)
+      );
+      console.log("sRetangle with height: 19 and widht:2: " + sRetangle(19, 2));
+      console.log("from 30°F to °C: " + faRenheit(30));
+      console.log("from 40°F to °C: " + faRenheit(40));
+      console.log("from 50°F to °C: " + faRenheit(50));
+      console.log("exponent of: 2^3: " + exponentOf(2, 3));
+      console.log("exponent of: 5^2: " + exponentOf(5, 2));
+      console.log("exponent of: 6^3: " + exponentOf(6, 3));
+      console.log("natural number of 2: " + naturalOf(2));
+      console.log("natural number of 3: " + naturalOf(3));
+      console.log("natural number of 4: " + naturalOf(4));
+      console.log("which is greates: " + coDe4(1, 2, 5));
+      console.log("which is greates: " + coDe4(100, 20, 58));
+      console.log("which is greates: " + coDe4(56, 27, 40));
+      console.log("which is greates: " + coDe131(1, 2, 3, 4));
+      console.log("which is greates: " + coDe131(100, 200, 30, 400));
+      console.log("which is greates: " + coDe131(143, 24342, 67, 19));
+      console.log(
+        "the first and the last number is " +
+          numBers(20).first +
+          " : " +
+          numBers(20).last
+      );
+      console.log(
+        "the first and the last number is " +
+          numBers(36).first +
+          " : " +
+          numBers(36).last
+      );
+      console.log(
+        "the first and the last number is " +
+          numBers(6).first +
+          " : " +
+          numBers(6).last
+      );
+      console.log("chu so hang tram cua 12345 la: " + yourNumber(12345).du);
+      console.log("chu so hang tram cua 1234 la: " + yourNumber(1234).du);
+      console.log("chu so hang tram cua 123 la: " + yourNumber(123).du);
+      console.log("chu so hang tram cua 12 la: " + yourNumber(12).du);
+      console.log(multiPlication(9, 3));
+
+      positiveNumbers(10);
+      positiveNumbers(-10);
+      console.log(positiveNumbers(0));
+
+      console.log(evenNumbers(2));
+      console.log(evenNumbers(3));
+      console.log(evenNumbers(4));
+
+      character("a");
+      character("b");
+      character("$");
+
+      monthAndyear("2");
+      monthAndyear("3");
+      monthAndyear("10");
+      monthAndyear("14");
+
+      tamGiac(1, 2, 3);
+      tamGiac(3, 4, 5);
+
+      typeOftamgiac(0, 0, 0);
+      typeOftamgiac(0, 0, 1);
+      typeOftamgiac(1, 1, 1);
+      typeOftamgiac(1, 3, 3);
+      typeOftamgiac(3, 5, 3);
+      typeOftamgiac(3, 4, 5);
+
+      yourAge(10);
+      yourAge(12);
+      yourAge(15);
+      yourAge(17);
+
+      sCore(9);
+      sCore(10);
+      sCore(8);
+      sCore(6);
+      sCore(5);
+      sCore(4);
+      sCore(3);
+
+      yourNumbers(5);
+      yourNumbers(130);
+      yourNumbers(3);
+      yourNumbers(15);
+      yourNumbers(157);
+
+      timeDoing(50, 4);
+      timeDoing(8, 4);
+
+      tienDien(38);
+      tienDien(51);
+      tienDien(163);
+      tienDien(260);
+      tienDien(341);
+      tienDien(530);
+      tienDien(589);
+
+      phuongTrinhbachai(0, 0, 0);
+      phuongTrinhbachai(0, 0, 4);
+      phuongTrinhbachai(0, 2, 3);
+      phuongTrinhbachai(1, 2, 1);
+      phuongTrinhbachai(1, 5, 2);
+
+      /*console.log ( soChan( 2, 20 ) );*/
+
+      console.log(soNguyento(6));
+      console.log(soNguyento(17));
+      console.log(soNguyento(23));
+      console.log(soNguyento(29));
+
+      console.log(giaiThua(3));
+      console.log(giaiThua(5));
+
+      console.log(tongChuso(123));
+      console.log(tongChuso(103));
+      console.log(tongChuso(2345));
+      console.log(tongChuso(86349));
+      console.log(tongChuso(8723894782347));
+      console.log(tongChuso(777777));
+
+      console.log(
+        " tổng số lớn và nhỏ nhất trong cùng một số là " + lonNho(123)
+      );
+
+      console.log(
+        " tổng số lớn và nhỏ nhất trong cùng một số là " + lonNho(7892)
+      );
+
+      console.log(
+        " tổng số lớn và nhỏ nhất trong cùng một số là " + lonNho(6243)
+      );
+      console.log(" tổng số lớn và nhỏ nhất trong cùng một số là " + lonNho(2));
+
+      console.log(soToanchan(123));
+      console.log(soToanchan(357));
+      console.log(soToanchan(2));
+      console.log(soToanchan(224));
+
+      console.log(soTienlen(123));
+      console.log(soTienlen(345));
+      console.log(soTienlen(231));
+      console.log(soTienlen(321));
+
+      console.log(daoNguoc(321));
+
+      console.log(reverseString("234"));
+
+      console.log(reserveNumber(1234));
+
+      console.log(nhanCapso(2));
+      console.log(nhanCapso(3));
+      console.log(nhanCapso(4));
+
+      console.log(congSotunhien(2));
+      console.log(congSotunhien(3));
+      console.log(congSotunhien(4));
+      console.log(congSotunhien(6));
+
+      console.log(congSotunhan(2));
+      console.log(congSotunhan(3));
+      console.log(congSotunhan(4));
+
+      console.log(congSo(2));
+
+      console.log(congSo(3));
+      console.log(congSo(4));
+
+      console.log(" tong luy thua la " + tongLuythua(1));
+      console.log(" tong luy thua la " + tongLuythua(2));
+      console.log(" tong luy thua la " + tongLuythua(3));
+      console.log(" tong luy thua la " + tongLuythua(4));
+
+      //console.log(coSo(2));
+      //console.log(3);
+      //console.log(4);
+      //console.log(5);
+
+      console.log(" tong binh phuong cua la " + tongBinhphuong(3));
+      console.log(" tong binh phuong cua la " + tongBinhphuong(4));
+      console.log(" tong binh phuong cua la " + tongBinhphuong(2));
+
+      console.log(" tong binh phuong cua la " + tongBinhphuong(5));
+
+      console.log(lapPhanso(3));
+      console.log(lapPhanso(4));
+      console.log(lapPhanso(5));
+
+      console.log(" tong phan so " + tongPhanso(2));
+
+      console.log(" tong phan so " + tongPhanso(3));
+      console.log(" tong phan so " + tongPhanso(4));
+
+      console.log(" lapLuythua " + lapLailuythua(3));
+      console.log(" lapLuythua " + lapLailuythua(4));
+      console.log(" lapLuythua " + lapLailuythua(5));
+
+      console.log(" bội số của 25 nhỏ hơn 100 là " + boisoLessThan100(25));
+
+      console.log(" ước số của 10 trong vòng lặp " + uocsoLessthanx(10));
+
+      console.log(" vòng lặp có chứa ước số của 3 " + laptimUocso(3));
+
+      console.log(
+        " giá trị của bội chung nhỏ nhất giữa 25 và 10 là  " +
+          boichungNhonhat(25, 10)
+      );
+
+      console.log(
+        " ước chung lớn nhất của 27 và 18 là " + uocchungLonnhat(27, 18)
+      );
+
+      console.log(thaphinhdauTru(3));
+      console.log(thaphinhdauTru(5));
+      console.log(thaphinhdauTru(7));
+
+      console.log(thaphinhdauChia(7));
+
+      //console.log( thapHinhw (3));
+
+      console.log(drawW(3));
+
+      const reDuce = [2, 2, 6, 3, 8, 3];
+      const uniqueSet = new Set(reDuce); // set đã loại bỏ toàn bộ phần tư bị trung lặp -> uniqueSet chỉ còn chứa 2 6 3 8
+      const backtoArray = [...uniqueSet]; // chuyển các phần tử từ uniqueset về lại mảng
+
+      console.log(backtoArray);
+
+      //console.log (arrInt(2));
+
+      const mang = [1, 2, 3, 4, 5];
+      console.log(tinhTrungBinhCong(mang)); // Kết quả: 3
+
+      /*let sochan = [1, 2, 3];
+      console.log(soChana(x));*/
+
+      console.log(taoMang(1));
+      console.log(taoMang(2));
+      console.log(taoMang(3));
+
+      console.log(taoMang(4));
+
+      console.log(taoMang(5));
+      console.log(taoMang(46));
+
+      const soBencanh = [1, 3, 2, 4, 2, 5, 8];
+      console.log(tongHaisobencanh(soBencanh));
+
+      const x = [1, 2, 3];
+      const y = 7;
+      console.log(laptimTrungbinhcong(x, y));
+
+      //console.log( soNhosaucung(newnhonhat(min)));
+
+
+      trungBinhIndexOf ([1, 2, 3], 7);
+      trungBinhIndexOf ([1, 2, 3], 3);
+      trungBinhIndexOf ([1, 2, 3], 2);
+
+    </script>
+  </body>
+</html>

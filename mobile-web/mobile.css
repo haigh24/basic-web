@@ -1,0 +1,105 @@
+.caffeekinghome {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px 10px 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .caffeeking {
+    display: flex;
+    width: 50%;
+  }
+  .home {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+  }
+  .home a {
+    text-decoration: none;
+    color: black;
+  }
+  .home a:hover {
+    color: #c0aa83;
+  }
+  .flinkfather {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .femote {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: end;
+  }
+
+.iconshoping{  display: flex;
+    width: 15%;
+    align-content: center;
+    /* text-align: center; */
+    align-items: center;
+}
+  
+.iconmenu {
+    display: flex;
+    width: 15%;
+    font-size: 30px;
+    align-items: center
+}
+
+.contactus {
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.inimg {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.linkinimg {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    text-align: center;
+
+
+   
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.colorlink a{
+    color: #c0aa83;
+    font-weight: bold;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+
+}
+.address {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+
+.addresscontent {
+  display: flex;
+  flex-direction: row;
+}
+
+.ophs {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
